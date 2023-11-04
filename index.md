@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<!-- saved from url=(0025)https://www.ginayuan.com/ -->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
