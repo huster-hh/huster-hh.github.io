@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Gina Yuan</title><link rel="stylesheet" href="./Gina Yuan_files/style.css">
+		<title>Hang Huang (黄航)</title><link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
 		<div class="container">
