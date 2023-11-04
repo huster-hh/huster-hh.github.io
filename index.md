@@ -1,8 +1,4 @@
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Hang Huang (黄航)</title><link rel="stylesheet" href="./style.css">
-	</head>
 	<body>
 		<div class="container">
 			<h1>Hang Huang</h1><div class="crop"><img src="./profile.jpg" class="image">
