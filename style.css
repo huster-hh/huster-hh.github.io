@@ -1,0 +1,26 @@
+/* Layout Modifications
+********************************/
+body {
+  font-family: Arial;
+}
+
+.container {
+  margin-left: 40px;
+  width: 600px;
+}
+
+.crop {
+    width: 300px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 150px;
+    margin: 0px 0 0 0px;
+}
+
+#emphasis {
+	color: red;
+	font-weight: bold;
+    font-style: italic;
+}
