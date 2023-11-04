@@ -12,7 +12,7 @@
 		<img src="./profile.jpg" align="left" width="300" hspace="5" vspace="5">
 		<li style="list-style-type: none;"><font size="20"> Hang Huang</font></li>
 		<li style="list-style-type: none;"><a href="mailto:hanghhust@gmail.com">Email: hanghhust@gmail.com</a></li>
-		<li style="list-style-type: none;">Phone number: +86 18202717991 </a></li>
+		<li style="list-style-type: none;">Phone number: +86 18202717991 </li>
 		<li style="list-style-type: none;"><a href="https://github.com/huster-hh">GitHub: https://github.com/huster-hh</a></li>
 		<li style="list-style-type: none;"><a href="https://github.com/huster-hh/huster-hh.github.io/cv_huang.pdf">CV</a></li>
 		</p>
