@@ -19,7 +19,6 @@
 		</p>
 		<br>
 		<br>
-		<br>
 		<p> I am a Ph.D. graduate from the School of Computer Science and Technology at Huazhong University of Science and Technology, supervised by Professor <a href="http://cgcl.grid.hust.edu.cn/wusong/"> Song Wu </a>, from 2016 to 2022. During my Ph.D., I also spent one year as a visiting scholar at the University of Texas at Arlington, under the guidance of Professor <a href="https://ranger.uta.edu/~jiang/"> Hong Jiang </a> and <a href="https://ranger.uta.edu/~jrao/"> Jia Rao </a>, from 2018 to 2019. Prior to that, I obtained a Bachelor's degree from the School of Software at Huazhong University of Science and Technology, from 2012 to 2016. Currently, I am working at Alibaba Cloud, specializing in the development and research of secure containers since 2022.
 		</p>
 		<h2>Research Interests</h2>
@@ -47,6 +46,5 @@
 		<li> 2017 Merit Student, National scholarship</li>
 		<li> 2016 Guaranteed Admission</li>
 		<li> 2014 Outstanding Student Scholarship</li>
-	</div>
 	</body>
 </html>
