@@ -10,7 +10,7 @@
   	</head>
 	<body>
 		<p style="width:400px;">
-		<img src="./profile.jpg" align="left" width="200" hspace="5" vspace="5">
+		<img src="./profile.jpg" align="left" width="300" hspace="5" vspace="5">
 		<li style="list-style-type: none;"><font size="20"> Hang Huang</font></li>
 		<li style="list-style-type: none;"><a href="mailto:hanghhust@gmail.com">Email: hanghhust@gmail.com</a></li>
 		<li style="list-style-type: none;"><a href="https://github.com/huster-hh">GitHub: https://github.com/huster-hh</a></li>
