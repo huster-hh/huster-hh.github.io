@@ -8,7 +8,7 @@
 			<h1>Hang Huang</h1><div class="crop"><img src="./profile.jpg" class="image">
 		</div>
 		<p>
-		<a href="https://keybase.io/ygina">Keybase</a>&nbsp; | &nbsp;<a href="mailto:gyuan@cs.stanford.edu">Email</a>&nbsp; | &nbsp;<a href="https://www.github.com/ygina">GitHub</a>&nbsp; | &nbsp;<a href="https://www.ginayuan.com/static/cv_yuan.pdf">CV</a>
+		<a href="mailto:hanghhust@gmail.com">Email</a>&nbsp; | &nbsp;<a href="https://github.com/huster-hh">GitHub</a>&nbsp; | &nbsp;<a href="https://github.com/huster-hh/huster-hh.github.io/cv_huang.pdf">CV</a>
 		</p>
 		<p> I am a Ph.D. graduate from the School of Computer Science and Technology at Huazhong University of Science and Technology, supervised by Professor <a href="http://cgcl.grid.hust.edu.cn/wusong/"> Song Wu </a>, from 2016 to 2022. During my Ph.D., I also spent one year as a visiting scholar at the University of Texas at Arlington, under the guidance of Professor <a href="https://ranger.uta.edu/~jiang/"> Hong Jiang </a> and <a href="https://ranger.uta.edu/~jrao/"> Jia Rao </a>, from 2018 to 2019. Prior to that, I obtained a Bachelor's degree from the School of Software at Huazhong University of Science and Technology, from 2012 to 2016. Currently, I am working at Alibaba Cloud, specializing in the development and research of secure containers since 2022.
 		</p>
