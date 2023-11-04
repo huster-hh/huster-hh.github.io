@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Gina Yuan</h1><div class="crop"><img src="./Gina Yuan_files/profile.jpg" class="image">
+			<h1>Hang Huang</h1><div class="crop"><img src="./profile.jpg" class="image">
 		</div>
 		<p>
 		<a href="https://keybase.io/ygina">Keybase</a>&nbsp; | &nbsp;<a href="mailto:gyuan@cs.stanford.edu">Email</a>&nbsp; | &nbsp;<a href="https://www.github.com/ygina">GitHub</a>&nbsp; | &nbsp;<a href="https://www.ginayuan.com/static/cv_yuan.pdf">CV</a>
