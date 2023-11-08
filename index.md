@@ -30,11 +30,11 @@
 		</p>
 		<h2>Publications</h2>
 			<ul>
-			<li><p>PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environments <br> <b>Hang Huang</b>, Jiangshan Lai, Jia Rao, Hui Lu, Wenlong Hou, Hang Su, Quan Xu, Jiang Zhong, Jiahao Zeng, Xu Wang, Zhengyu He, Weidong Han, Jiang Liu, Tao Ma and Song Wu. <i>SOSP 2023 (CCF A-Conference). <a src="./sosp23-pvm-accepted.pdf">pdf</a>, <a src="./SOSP-23.pptx">ppt</a> </i></p></li>
+			<li><p>PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environments <br> <b>Hang Huang</b>, Jiangshan Lai, Jia Rao, Hui Lu, Wenlong Hou, Hang Su, Quan Xu, Jiang Zhong, Jiahao Zeng, Xu Wang, Zhengyu He, Weidong Han, Jiang Liu, Tao Ma and Song Wu. <i>SOSP 2023 (CCF A-Conference). <a href="./sosp23-pvm-accepted.pdf">pdf</a>, <a href="./SOSP-23.pptx">ppt</a> </i></p></li>
 			<li><p>Adapt Burstable Containers to Variable CPU Resources <br> <b>Hang Huang</b>, Yuqing Zhao, Jia Rao, Song Wu, Hai Jin, Duoqiang Wang, Kun Suo, Lisong Pan. <i>TC 2022 (CCF A-Journal).</i></p></li>
 			<li><p>vKernel: Enhancing Container Isolation via Private Code and Data <br> <b>Hang Huang</b>, Honglei Wang, Jia Rao, Song Wu, Hao Fan, Chen Yu, Hai Jin, Kun Suo, Lisong Pan. <i>TC 2022 Minor revison (CCF A-Journal).</i></p></li>
    			<li><p>Towards Exploiting CPU Elasticity via Efficient Thread Oversubscription <br> <b>Hang Huang</b>, Jia Rao, Song Wu, Hai Jin, Hong Jiang, Hao Che, Xiaofeng Wu. <i>HPDC 2021 (CCF B-Conference).</i></p></li>
-			<li><p>Adaptive Resource Views for Containers <br> <b>Hang Huang</b>, Jia Rao, Song Wu, Hai Jin, Kun Suo, Xiaofeng Wu. <i>HPDC 2019 (CCF B-Conference). a src="./HPDC-19.pptx">ppt</a> </i></p></li>
+			<li><p>Adaptive Resource Views for Containers <br> <b>Hang Huang</b>, Jia Rao, Song Wu, Hai Jin, Kun Suo, Xiaofeng Wu. <i>HPDC 2019 (CCF B-Conference). <a href="./HPDC-19.pptx">ppt</a> </i></p></li>
 			<li><p>A Performance Study of Containers in Cloud Environment <br> Bowen Ruan, <b>Hang Huang*</b>, Song Wu, Hai Jin. <i>APSCC 2016 (CCF C-Conference).</i></p></li>
 			<li><p>Characterizing and optimizing Kernel resource isolation for containers <br> Kun Wang, Song Wu, Kun Suo, Yijie Liu, <b>Hang Huang</b>, Zhuo Huang, Hai Jin. <i>FGCS 2023 (CCF B-Journal).</i></p></li>
 			<li><p>SwitchFlow: preemptive multitasking for deep learning <br> Xiaofeng Wu, Jia Rao, Wei Chen, <b>Hang Huang</b>, Chris H. Q. Ding, Heng Huang. <i>Middleware 2021 (CCF B-Conference Best paper).</i></p></li>
