@@ -1,49 +1,131 @@
-<html lang="zh-CN">
-	<head>
-	<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    	<meta name="description" content="">
-    	<meta name="author" content="">
-  	</head>
-	<body>
-		<p style="width:400px;">
-		<img src="./profile.jpg" align="left" width="300" hspace="5" vspace="5">
-		<li style="list-style-type: none;"><font size="20"> Hang Huang</font></li>
-		<li style="list-style-type: none;"><a href="mailto:hanghhust@gmail.com">Email: hanghhust@gmail.com</a></li>
-		<li style="list-style-type: none;">Phone number: +86 18202717991 </li>
-		<li style="list-style-type: none;"><a href="https://github.com/huster-hh">GitHub: https://github.com/huster-hh</a></li>
-		<li style="list-style-type: none;"><a href="https://github.com/huster-hh/huster-hh.github.io/cv_huang.pdf">CV</a></li>
-		</p>
-		<br>
-		<br>
-		<p> I am a Ph.D. graduate from the School of Computer Science and Technology at Huazhong University of Science and Technology, supervised by Professor <a href="http://cgcl.grid.hust.edu.cn/wusong/"> Song Wu </a>, from 2016 to 2022. During my Ph.D., I also spent one year as a visiting scholar at the University of Texas at Arlington, under the guidance of Professor <a href="https://ranger.uta.edu/~jiang/"> Hong Jiang </a> and <a href="https://ranger.uta.edu/~jrao/"> Jia Rao </a>, from 2018 to 2019. Prior to that, I obtained a Bachelor's degree from the School of Software at Huazhong University of Science and Technology, from 2012 to 2016. I joined Alibaba Cloud, specializing in the development and research of secure containers from 2022 - 2025. Currently, I am working in the School of Computer Science and Technology at Huazhong University of Science and Technology.
-		</p>
-		<h2>Research Interests</h2>
-		<p>The goal of my research is to build computer systems that are adaptive to changing workloads, scalable for platform growth, and capable of providing Quality-of-Service guarantees and service differentiation. I am especially interested in improving the memory management and scheduling in Cloud systems with a focus on easier application management, especially in the area of containers. My work combines performance analysis at both up-level application and low-level OS kernel to characterize the complex behaviors of Cloud systems. He recently works on the following areas:
-		<li>Cloud Computing and Virtualization</li>
-		<li>Serverless Computing and Containers</li>
-		<li>Fairness and Performance Isolation</li>
-		<li>Efficient Resource Management on Cloud-native</li>
-		<li>Optimization on Linux Kernel</li>
-		</p>
-		<h2>Publications</h2>
-			<ul>
-			<li><p>PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environments <br> <b>Hang Huang</b>, Jiangshan Lai, Jia Rao, Hui Lu, Wenlong Hou, Hang Su, Quan Xu, Jiang Zhong, Jiahao Zeng, Xu Wang, Zhengyu He, Weidong Han, Jiang Liu, Tao Ma and Song Wu. <i>SOSP 2023 (CCF A-Conference). <a href="./sosp23-pvm-accepted.pdf">pdf</a>, <a href="./SOSP-23.pptx">ppt</a> </i></p></li>
-			<li><p>Adapt Burstable Containers to Variable CPU Resources <br> <b>Hang Huang</b>, Yuqing Zhao, Jia Rao, Song Wu, Hai Jin, Duoqiang Wang, Kun Suo, Lisong Pan. <i>TC 2022 (CCF A-Journal).</i></p></li>
-			<li><p>vKernel: Enhancing Container Isolation via Private Code and Data <br> <b>Hang Huang</b>, Honglei Wang, Jia Rao, Song Wu, Hao Fan, Chen Yu, Hai Jin, Kun Suo, Lisong Pan. <i>TC 2022 Minor revison (CCF A-Journal).</i></p></li>
-   			<li><p>Towards Exploiting CPU Elasticity via Efficient Thread Oversubscription <br> <b>Hang Huang</b>, Jia Rao, Song Wu, Hai Jin, Hong Jiang, Hao Che, Xiaofeng Wu. <i>HPDC 2021 (CCF B-Conference).</i></p></li>
-			<li><p>Adaptive Resource Views for Containers <br> <b>Hang Huang</b>, Jia Rao, Song Wu, Hai Jin, Kun Suo, Xiaofeng Wu. <i>HPDC 2019 (CCF B-Conference). <a href="./HPDC-19.pptx">ppt</a> </i></p></li>
-			<li><p>A Performance Study of Containers in Cloud Environment <br> Bowen Ruan, <b>Hang Huang*</b>, Song Wu, Hai Jin. <i>APSCC 2016 (CCF C-Conference).</i></p></li>
-			<li><p>Characterizing and optimizing Kernel resource isolation for containers <br> Kun Wang, Song Wu, Kun Suo, Yijie Liu, <b>Hang Huang</b>, Zhuo Huang, Hai Jin. <i>FGCS 2023 (CCF B-Journal).</i></p></li>
-			<li><p>SwitchFlow: preemptive multitasking for deep learning <br> Xiaofeng Wu, Jia Rao, Wei Chen, <b>Hang Huang</b>, Chris H. Q. Ding, Heng Huang. <i>Middleware 2021 (CCF B-Conference Best paper).</i></p></li>
-			<li><p>Dynamic vertical memory scalability for OpenJDK cloud applications <br> 	Rodrigo Bruno, Paulo Ferreira, Ruslan Synytsky, Tetiana Fydorenchyk, Jia Rao, <b>Hang Huang</b>, Song Wu. <i>ISMM 2018 (CCF C-Conference).</i></p></li>
-			</ul>
-		<h2>Award</h2>
-		<li> 2018 China Scholarship Council</li>
-		<li> 2017 Merit Student, National scholarship</li>
-		<li> 2016 Guaranteed Admission</li>
-		<li> 2014 Outstanding Student Scholarship</li>
-	</body>
-</html>
+<table width="100%" style="border: none; border-collapse: collapse; width: 100%;">
+  <tr style="border: none;">
+    <td width="200" align="center" style="border: none; vertical-align: middle;">
+      <img src="./profile.jpg" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Profile Photo" />
+    </td>
+    <td align="left" style="border: none; vertical-align: middle; padding-left: 20px;">
+      <h2 style="margin-bottom: 0;">Hang Huang</h2>
+      <sub>
+        📧 hanghhust@gmail.com · 
+        <a href="https://github.com/huster-hh">🐙 GitHub</a> · 
+        <a href="./cv_huang.pdf">📄 CV</a> · 
+        <a href="#english">EN</a> / <a href="#中文">中文</a>
+      </sub>
+      <br><br>
+      <b>Cloud Systems for AI</b><br>
+      <sub>Operating Systems · Virtualization · LLM Systems</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<a name="english"></a>
+
+## 🧑‍💻 About
+
+I am a researcher in **computer systems for AI**, currently with the School of Computer Science and Technology at **Huazhong University of Science and Technology (HUST)**.
+
+I received my Ph.D. from HUST, and was supported by the **China Scholarship Council (CSC)** for joint training in the United States.  
+After graduation, I joined **Alibaba Cloud Infrastructure**, working on low-level cloud system design and implementation. I returned to HUST in 2025 to focus on research in **AI-oriented cloud systems**.
+
+My work has been published in top-tier systems venues including **SOSP, OSDI, EuroSys, HPDC, and IEEE TC**, with multiple first-author papers. My research lies at the intersection of **operating systems, virtualization, and large-scale cloud infrastructure for AI workloads**.
+
+I actively collaborate with international universities and major cloud providers (Alibaba Cloud, Huawei Cloud, Tencent Cloud), and have ongoing joint research efforts spanning both academia and industry.
+
+---
+
+## 🔬 Research Overview
+
+My research focuses on **Cloud Systems for AI**, spanning the full software stack from low-level system design to high-level AI infrastructure.
+
+The goal is to build **efficient, scalable, and AI-native cloud systems** that support emerging workloads such as large language models and autonomous agents.
+
+### Key Directions
+
+#### 1. Virtualized AI Infrastructure
+Design of virtualization techniques for **compute, memory, storage, network, and accelerators**, enabling efficient deployment of AI workloads (e.g., model-as-a-service, agent-based systems).
+
+#### 2. Agent-oriented Operating Systems
+Extending traditional OS abstractions (e.g., Linux) to support **AI agents as first-class entities**, including new execution, scheduling, and resource management models.
+
+#### 3. Secure and Efficient Agent Sandboxing
+Next-generation container/runtime systems (Docker, Kata, gVisor, WASM) tailored for **agent workloads**, enabling secure and efficient code execution and tool invocation.
+
+#### 4. LLM Inference Systems
+Design of high-performance inference engines (e.g., vLLM, SGLang) and **retrieval-augmented generation (RAG)** systems, supporting long context, dynamic workloads, and multi-modal inference.
+
+#### 5. Agent Systems and Runtime
+Building scalable **multi-agent systems**, with support for scheduling, tool integration, and serverless execution in cloud environments.
+
+---
+
+## 📚 Selected Publications
+
+- **PVM: Efficient Shadow Paging for Deploying Secure Containers**  
+  *ACM SOSP 2023*
+
+- **(Additional papers in OSDI / EuroSys / HPDC / IEEE TC)**
+
+---
+
+## 🤝 Collaboration & Mentorship
+
+I maintain active collaborations with both academia and industry.  
+I welcome students who are interested in:
+
+- Top-tier systems research (SOSP / OSDI / ASPLOS / EuroSys)  
+- Pursuing Ph.D. studies abroad  
+- Careers in leading cloud and infrastructure companies  
+
+---
+
+<a name="中文"></a>
+
+## 🧑‍💻 个人简介
+
+我目前在**华中科技大学计算机学院**从事**面向 AI 的云计算系统（Cloud Systems for AI）**研究。
+
+本科、硕士、博士均毕业于华中科技大学，期间获**国家留学基金委（CSC）资助赴美联合培养**。  
+毕业后加入**阿里云基础设施事业部**，从事云计算底层系统研发工作，并于 2025 年回到母校专注科研。
+
+本人在系统领域顶级会议/期刊（**SOSP、OSDI、EuroSys、HPDC、IEEE TC**）发表多篇论文，研究方向聚焦于**操作系统、虚拟化与 AI 云基础设施的交叉领域**。
+
+目前与多所海外高校保持长期合作，同时与**阿里云、华为云、腾讯云**等开展持续技术协作。
+
+---
+
+## 🔬 研究方向
+
+围绕 **“面向 AI 的云计算系统（Cloud Systems for AI）”** 展开，覆盖从底层到上层的完整系统软件栈，致力于构建高效、可扩展的 AI 原生云基础设施。
+
+### 核心研究方向
+
+#### 1️⃣ AI算力基础设施虚拟化
+面向计算、存储、网络及加速器的虚拟化技术，支撑模型服务化与智能体应用的高效部署。
+
+#### 2️⃣ 智能体操作系统
+扩展 Linux 等传统操作系统，为智能体提供新的系统抽象、调度与资源管理机制。
+
+#### 3️⃣ 智能体沙箱与运行时
+面向智能体负载，演进容器与运行时技术（Docker / Kata / gVisor / WASM），构建安全高效执行环境。
+
+#### 4️⃣ 大模型推理系统
+研究高性能推理引擎（如 vLLM、SGLang）与 RAG 技术，支持长上下文、多模态与动态负载。
+
+#### 5️⃣ 智能体系统
+构建多智能体运行框架，实现任务调度、工具增强与 Serverless 化执行。
+
+---
+
+## 🤝 招生与合作
+
+欢迎对系统研究感兴趣的同学加入，方向包括：
+
+- 顶会论文（SOSP / OSDI / ASPLOS / EuroSys）
+- 出国深造（PhD）
+- 云计算与基础设施企业（阿里 / 华为 / 腾讯）
+
+提供系统性科研指导与工程实践机会。
+
+---
