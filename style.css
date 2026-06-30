@@ -301,6 +301,18 @@ img {
   margin-top: 30px;
 }
 
+.publication-note {
+  margin: -2px 0 14px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.publication-note sup,
+.corresponding-mark {
+  color: var(--hust-red);
+  font-weight: 800;
+}
+
 .publication-group h3 {
   margin: 0;
   padding-bottom: 8px;
@@ -327,6 +339,12 @@ img {
   color: var(--ink);
   font-size: 1.02rem;
   line-height: 1.38;
+}
+
+.corresponding-mark {
+  margin-left: 2px;
+  font-size: 0.78em;
+  line-height: 0;
 }
 
 .authors,
