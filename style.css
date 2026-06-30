@@ -134,10 +134,10 @@ img {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 196px;
-  gap: 46px;
+  grid-template-columns: minmax(0, 1fr) 168px;
+  gap: 42px;
   align-items: start;
-  padding: 54px 0 44px;
+  padding: 46px 0 34px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -212,9 +212,9 @@ img {
 }
 
 .portrait {
-  width: 164px;
-  height: 198px;
-  margin: 0 0 16px auto;
+  width: 128px;
+  height: 154px;
+  margin: 0 0 10px auto;
   overflow: hidden;
   border: 1px solid var(--line-strong);
   background: #e7ecea;
@@ -230,16 +230,21 @@ img {
 .profile-meta {
   margin: 0;
   border-top: 1px solid var(--line);
-  font-size: 0.82rem;
+  font-size: 0.74rem;
+  line-height: 1.35;
 }
 
 .profile-meta div {
-  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  padding: 6px 0;
   border-bottom: 1px solid var(--line);
 }
 
 .profile-meta dt {
-  margin: 0 0 2px;
+  margin: 0;
   color: var(--muted);
   font-weight: 800;
 }
@@ -433,8 +438,8 @@ img {
   }
 
   .portrait {
-    width: 142px;
-    height: 172px;
+    width: 118px;
+    height: 142px;
     margin: 0;
   }
 
@@ -473,8 +478,8 @@ img {
   }
 
   .portrait {
-    width: 128px;
-    height: 156px;
+    width: 110px;
+    height: 132px;
   }
 
   .quick-links a::after {
