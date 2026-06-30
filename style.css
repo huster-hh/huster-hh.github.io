@@ -469,7 +469,11 @@ img {
   }
 
   .quick-links a::after {
-    margin-left: 12px;
+    margin-left: 8px;
+  }
+
+  .quick-links {
+    gap: 6px 10px;
   }
 
   .site-footer {
