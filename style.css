@@ -61,7 +61,7 @@ img {
 
 .header-inner {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr auto;
   gap: 28px;
   align-items: center;
   max-width: var(--max-width);
@@ -70,23 +70,9 @@ img {
   padding: 0 28px;
 }
 
-.brand {
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.brand span {
-  margin-left: 6px;
-  color: var(--hust-red);
-  font-family: "Noto Serif SC", "Songti SC", serif;
-  font-weight: 700;
-}
-
 .site-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 22px;
   font-size: 0.9rem;
   font-weight: 700;
@@ -236,8 +222,8 @@ img {
 
 .profile-meta div {
   display: grid;
-  grid-template-columns: 48px minmax(0, 1fr);
-  gap: 8px;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 6px;
   align-items: baseline;
   padding: 6px 0;
   border-bottom: 1px solid var(--line);
