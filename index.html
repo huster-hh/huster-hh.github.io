@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hang Huang | Cloud Systems for AI</title>
+  <title>Hang Huang | 黄航</title>
   <meta name="description" content="Hang Huang, Lecturer at Huazhong University of Science and Technology. Research in operating systems, virtualization, containers, serverless computing, and cloud systems for AI.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,363 +12,220 @@
 </head>
 <body data-lang="en">
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Hang Huang homepage">
-      <span class="brand-mark">HH</span>
-      <span>Hang Huang</span>
-    </a>
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="#about"><span class="en">About</span><span class="zh">简介</span></a>
-      <a href="#research"><span class="en">Research</span><span class="zh">研究</span></a>
-      <a href="#publications"><span class="en">Publications</span><span class="zh">论文</span></a>
-      <a href="#materials"><span class="en">Materials</span><span class="zh">材料</span></a>
-      <a href="#join"><span class="en">Join</span><span class="zh">加入</span></a>
-    </nav>
-    <div class="language-switch" aria-label="Language switcher">
-      <button class="lang-button is-active" type="button" data-lang-switch="en">EN</button>
-      <button class="lang-button" type="button" data-lang-switch="zh">中文</button>
+    <div class="header-inner">
+      <a class="brand" href="#top">Hang Huang <span>黄航</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about"><span class="en">About</span><span class="zh">简介</span></a>
+        <a href="#research"><span class="en">Research</span><span class="zh">研究</span></a>
+        <a href="#publications"><span class="en">Publications</span><span class="zh">论文</span></a>
+        <a href="#students"><span class="en">Students</span><span class="zh">招生</span></a>
+      </nav>
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang-switch="en">EN</button>
+        <button class="lang-button" type="button" data-lang-switch="zh">中文</button>
+      </div>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero section-band">
-      <div class="hero-copy">
-        <p class="eyebrow">
-          <span class="en">Operating Systems / Virtualization / Cloud Systems for AI</span>
-          <span class="zh">操作系统 / 虚拟化 / 面向 AI 的云计算系统</span>
-        </p>
-        <h1>Hang Huang <span>黄航</span></h1>
-        <p class="hero-role">
+  <main class="page" id="top">
+    <section class="intro">
+      <div class="intro-main">
+        <h1><span class="name-en">Hang Huang</span><span class="name-zh">黄航</span></h1>
+        <p class="appointment">
           <span class="en">Lecturer, School of Computer Science and Technology, Huazhong University of Science and Technology</span>
           <span class="zh">华中科技大学计算机科学与技术学院讲师</span>
         </p>
-        <p class="hero-intro">
-          <span class="en">I build cloud system software across kernels, virtualization, containers, serverless computing, and AI-native infrastructure. My work has appeared in SOSP, OSDI, EuroSys, IEEE TC, HPDC, Middleware, ISMM, and APSCC.</span>
-          <span class="zh">长期从事云计算系统软件研究，覆盖操作系统内核、虚拟化与容器、Serverless 计算及云原生大模型系统。相关成果发表于 SOSP、OSDI、EuroSys、IEEE TC、HPDC、Middleware、ISMM、APSCC 等会议与期刊。</span>
-        </p>
-        <div class="hero-actions" aria-label="Primary links">
-          <a class="button primary" href="mailto:hanghhust@gmail.com">
-            <span class="en">Email</span><span class="zh">邮件联系</span>
-          </a>
-          <a class="button" href="assets/files/Hang-Huang-CV.pdf">
-            <span class="en">CV</span><span class="zh">简历</span>
-          </a>
-          <a class="button" href="https://github.com/huster-hh" rel="noopener" target="_blank">GitHub</a>
-          <a class="button" href="#publications">
-            <span class="en">Papers</span><span class="zh">论文列表</span>
-          </a>
+        <p class="summary en">My research focuses on operating systems, virtualization, containers, serverless computing, and cloud systems for AI. I received my Ph.D. from HUST in 2022, spent 2018-2019 as a CSC-supported visiting Ph.D. student at UT Arlington, and worked in Alibaba Cloud Infrastructure from 2022 to 2025.</p>
+        <p class="summary zh">我的研究方向包括操作系统、虚拟化、容器、Serverless 计算以及面向 AI 的云计算系统。2022 年于华中科技大学获博士学位，2018-2019 年获国家留学基金委资助赴德克萨斯大学阿灵顿分校联合培养，2022-2025 年任职于阿里云基础设施事业部。</p>
+        <div class="quick-links" aria-label="Contact and profile links">
+          <a href="mailto:hanghhust@gmail.com">Email</a>
+          <a href="assets/files/Hang-Huang-CV.pdf">CV</a>
+          <a href="https://github.com/huster-hh" rel="noopener" target="_blank">GitHub</a>
+          <a href="#publications"><span class="en">Papers</span><span class="zh">论文</span></a>
         </div>
-        <dl class="hero-facts" aria-label="Research highlights">
-          <div>
-            <dt>SOSP / OSDI / EuroSys</dt>
-            <dd><span class="en">top systems venues</span><span class="zh">系统领域顶级会议</span></dd>
-          </div>
-          <div>
-            <dt>2022-2025</dt>
-            <dd><span class="en">Alibaba Cloud Infrastructure</span><span class="zh">阿里云基础设施事业部</span></dd>
-          </div>
-          <div>
-            <dt>HUST + UTA</dt>
-            <dd><span class="en">systems research training</span><span class="zh">系统研究经历</span></dd>
-          </div>
-        </dl>
       </div>
-
-      <aside class="hero-panel" aria-label="Profile and research stack">
-        <figure class="portrait-frame">
+      <aside class="intro-side" aria-label="Profile photo and contact">
+        <figure class="portrait">
           <img src="assets/images/hang-huang.jpg" alt="Portrait of Hang Huang">
         </figure>
-        <div class="profile-lines">
-          <p><strong>hanghhust@gmail.com</strong></p>
-          <p>
-            <span class="en">Wuhan, China</span>
-            <span class="zh">中国武汉</span>
-          </p>
-        </div>
-        <div class="stack-map">
-          <p class="stack-title">
-            <span class="en">Research stack</span>
-            <span class="zh">研究栈</span>
-          </p>
-          <div class="stack-row">
-            <span>AI Runtime</span>
-            <strong>LLM Systems</strong>
+        <dl class="profile-meta">
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:hanghhust@gmail.com">hanghhust@gmail.com</a></dd>
           </div>
-          <div class="stack-row">
-            <span>Cloud Layer</span>
-            <strong>Serverless / Containers</strong>
+          <div>
+            <dt><span class="en">Location</span><span class="zh">所在地</span></dt>
+            <dd><span class="en">Wuhan, China</span><span class="zh">中国武汉</span></dd>
           </div>
-          <div class="stack-row">
-            <span>Isolation</span>
-            <strong>Virtualization</strong>
+          <div>
+            <dt><span class="en">Previous</span><span class="zh">曾任职</span></dt>
+            <dd><span class="en">Alibaba Cloud Infrastructure</span><span class="zh">阿里云基础设施事业部</span></dd>
           </div>
-          <div class="stack-row">
-            <span>Substrate</span>
-            <strong>Kernel / OS</strong>
-          </div>
-        </div>
+        </dl>
       </aside>
     </section>
 
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p class="section-kicker">
-          <span class="en">Profile</span>
-          <span class="zh">个人简介</span>
-        </p>
-        <h2><span class="en">Systems research with production pressure.</span><span class="zh">面向真实云基础设施压力的系统研究。</span></h2>
+    <section class="section about-section" id="about">
+      <div class="section-title">
+        <p class="section-label"><span class="en">About</span><span class="zh">个人简介</span></p>
+        <h2><span class="en">Background</span><span class="zh">背景经历</span></h2>
       </div>
-      <div class="about-grid">
-        <div class="prose">
-          <p class="en">I am a Lecturer in the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST). I received my B.S. degree in Software Engineering in 2016 and my Ph.D. degree in Computer Science and Technology in 2022 from HUST, advised by Prof. Song Wu. From 2018 to 2019, I was supported by the China Scholarship Council for joint doctoral training at the University of Texas at Arlington, working with Prof. Jia Rao.</p>
-          <p class="en">Before returning to HUST, I worked in Alibaba Cloud Infrastructure from 2022 to 2025, where I led virtualization architecture upgrades for secure container systems and supported large-scale production container workloads. My current research focuses on operating systems, virtualization, cloud-native systems, and AI infrastructure.</p>
+      <div class="section-body prose">
+        <p class="en">I received my B.S. degree in Software Engineering from HUST in 2016 and my Ph.D. degree in Computer Science and Technology from HUST in 2022, advised by Prof. Song Wu. From 2018 to 2019, I visited the University of Texas at Arlington for joint doctoral training with Prof. Jia Rao.</p>
+        <p class="en">My work has appeared in systems venues including SOSP, OSDI, EuroSys, IEEE TC, HPDC, Middleware, ISMM, and APSCC. I am interested in building mechanisms that connect clean system abstractions with production constraints in large-scale cloud platforms.</p>
 
-          <p class="zh">我现任华中科技大学计算机科学与技术学院讲师。2016 年于华中科技大学获软件工程学士学位，2022 年获计算机科学与技术博士学位，导师为吴松教授。2018-2019 年获国家留学基金委资助，赴德克萨斯大学阿灵顿分校联合培养，合作导师为饶嘉教授。</p>
-          <p class="zh">2022-2025 年曾任职于阿里云基础设施事业部，主导完成阿里云安全容器系统的虚拟化架构升级，并支撑日均百万核规模的容器实例稳定运行。目前研究聚焦操作系统、虚拟化、云原生系统与 AI 基础设施。</p>
+        <p class="zh">我于 2016 年在华中科技大学获软件工程学士学位，2022 年在华中科技大学获计算机科学与技术博士学位，导师为吴松教授。2018-2019 年赴德克萨斯大学阿灵顿分校联合培养，合作导师为饶嘉教授。</p>
+        <p class="zh">相关研究成果发表于 SOSP、OSDI、EuroSys、IEEE TC、HPDC、Middleware、ISMM、APSCC 等系统领域会议与期刊。我关注如何在大规模云平台的真实约束下设计清晰、有效的系统机制。</p>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="section-title">
+        <p class="section-label"><span class="en">Research</span><span class="zh">研究方向</span></p>
+        <h2><span class="en">Interests</span><span class="zh">研究兴趣</span></h2>
+      </div>
+      <div class="section-body">
+        <div class="interest-list">
+          <article>
+            <h3><span class="en">Operating systems and virtualization</span><span class="zh">操作系统与虚拟化</span></h3>
+            <p><span class="en">Kernel mechanisms, memory virtualization, nested virtualization, and secure execution environments.</span><span class="zh">内核机制、内存虚拟化、嵌套虚拟化与安全执行环境。</span></p>
+          </article>
+          <article>
+            <h3><span class="en">Containers and cloud-native infrastructure</span><span class="zh">容器与云原生基础设施</span></h3>
+            <p><span class="en">Secure containers, resource views, scheduling, and production-oriented cloud runtime systems.</span><span class="zh">安全容器、资源视图、调度机制以及面向生产环境的云运行时系统。</span></p>
+          </article>
+          <article>
+            <h3><span class="en">Elastic and serverless systems</span><span class="zh">弹性与 Serverless 系统</span></h3>
+            <p><span class="en">Resource management for variable CPU and memory availability, distributed shared memory, and stateful services.</span><span class="zh">面向 CPU/内存弹性、分布式共享内存与有状态服务的资源管理。</span></p>
+          </article>
+          <article>
+            <h3><span class="en">Cloud systems for AI</span><span class="zh">面向 AI 的云计算系统</span></h3>
+            <p><span class="en">System support for LLM inference, agent workloads, sandboxing, and AI-oriented cloud platforms.</span><span class="zh">面向大模型推理、智能体负载、沙箱隔离与 AI 云平台的系统支持。</span></p>
+          </article>
         </div>
-        <div class="focus-list" aria-label="Research focus summary">
-          <div>
-            <span class="focus-label">01</span>
-            <p><span class="en">Kernel mechanisms for resource management, fault isolation, and performance.</span><span class="zh">面向资源管理、故障隔离与性能优化的内核机制。</span></p>
-          </div>
-          <div>
-            <span class="focus-label">02</span>
-            <p><span class="en">Virtualization and secure containers for cloud-native production systems.</span><span class="zh">面向云原生生产系统的虚拟化与安全容器技术。</span></p>
-          </div>
-          <div>
-            <span class="focus-label">03</span>
-            <p><span class="en">AI-oriented cloud infrastructure for LLM inference, agents, and serverless workloads.</span><span class="zh">面向大模型推理、智能体与 Serverless 负载的 AI 云基础设施。</span></p>
-          </div>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications">
+      <div class="section-title">
+        <p class="section-label"><span class="en">Publications</span><span class="zh">论文发表</span></p>
+        <h2><span class="en">Papers</span><span class="zh">论文</span></h2>
+      </div>
+      <div class="section-body">
+        <div class="publication-group">
+          <h3><span class="en">Conference Papers</span><span class="zh">会议论文</span></h3>
+          <article class="publication">
+            <time>2026</time>
+            <div>
+              <h4>JANUS: Cross-World, Cooperative Nested Virtualization for Secure Containers</h4>
+              <p class="authors">Jiangshan Lai, <strong>Hang Huang</strong>, Quan Xu, Zhen Ren, Wenlong Hou, Wei Guo, Jia Rao, Hui Lu, Weidong Han, Jiesheng Wu, Jiang Liu, Naixuan Guan, Yibin Shen, Feng Yu, Xu Wang, Shiqiang Zhang, Zhiheng Tao, Yisheng Xie, Song Wu, Hai Jin</p>
+              <p class="venue">OSDI 2026.</p>
+              <p class="pub-links"><a href="assets/papers/janus-osdi26.pdf">PDF</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2026</time>
+            <div>
+              <h4>AEP: Achieving Hierarchical Fault Tolerance in DSM Through Atomic Execution Protection</h4>
+              <p class="authors">Zixuan Wang, Qi Wu, <strong>Hang Huang</strong>, Jia Rao, Hui Lu, Hao Fan, Zhuo Huang, Song Wu, Hai Jin</p>
+              <p class="venue">EuroSys 2026.</p>
+              <p class="pub-links"><a href="assets/papers/aep-eurosys26.pdf">PDF</a><a href="assets/slides/eurosys26-aep.pptx">Slides</a><a href="https://doi.org/10.1145/3767295.3803602" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2023</time>
+            <div>
+              <h4>PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environments</h4>
+              <p class="authors"><strong>Hang Huang</strong>, Jiangshan Lai, Jia Rao, Hui Lu, Wenlong Hou, Hang Su, Quan Xu, Jiang Zhong, Jiahao Zeng, Xu Wang, Zhengyu He, Weidong Han, Jiang Liu, Tao Ma, Song Wu</p>
+              <p class="venue">ACM SOSP 2023.</p>
+              <p class="pub-links"><a href="assets/papers/pvm-sosp23.pdf">PDF</a><a href="assets/slides/sosp23-pvm.pptx">Slides</a><a href="https://doi.org/10.1145/3600006.3613158" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2021</time>
+            <div>
+              <h4>SwitchFlow: Preemptive Multitasking for Deep Learning</h4>
+              <p class="authors">Xiaofeng Wu, Jia Rao, Wei Chen, <strong>Hang Huang</strong>, Chris Ding, Heng Huang</p>
+              <p class="venue">ACM Middleware 2021.</p>
+              <p class="pub-links"><a href="assets/papers/switchflow-middleware21.pdf">PDF</a><a href="https://doi.org/10.1145/3464298.3493391" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2021</time>
+            <div>
+              <h4>Towards Exploiting CPU Elasticity via Efficient Thread Oversubscription</h4>
+              <p class="authors"><strong>Hang Huang</strong>, Jia Rao, Song Wu, Hai Jin, Hong Jiang, Hao Che, Xiaofeng Wu</p>
+              <p class="venue">ACM HPDC 2021.</p>
+              <p class="pub-links"><a href="assets/papers/vb-hpdc21.pdf">PDF</a><a href="assets/slides/hpdc21-cpu-elasticity.pptx">Slides</a><a href="https://doi.org/10.1145/3431379.3460641" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2019</time>
+            <div>
+              <h4>Adaptive Resource Views for Containers</h4>
+              <p class="authors"><strong>Hang Huang</strong>, Jia Rao, Song Wu, Hai Jin, Kun Suo, Xiaofeng Wu</p>
+              <p class="venue">ACM HPDC 2019.</p>
+              <p class="pub-links"><a href="assets/papers/view-hpdc19.pdf">PDF</a><a href="assets/slides/hpdc19-adaptive-resource-views.pptx">Slides</a><a href="https://doi.org/10.1145/3307681.3325403" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2018</time>
+            <div>
+              <h4>Dynamic Vertical Memory Scalability for OpenJDK Cloud Applications</h4>
+              <p class="authors">Rodrigo Bruno, Paulo Ferreira, Ruslan Synytsky, Tetiana Fydorenchyk, Jia Rao, <strong>Hang Huang</strong>, Song Wu</p>
+              <p class="venue">ACM ISMM 2018.</p>
+              <p class="pub-links"><a href="assets/papers/dvm-ismm18.pdf">PDF</a><a href="https://doi.org/10.1145/3210563.3210567" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <time>2016</time>
+            <div>
+              <h4>A Performance Study of Containers in Cloud Environment</h4>
+              <p class="authors">Bowen Ruan, <strong>Hang Huang</strong>, Song Wu, Hai Jin</p>
+              <p class="venue">APSCC 2016.</p>
+              <p class="pub-links"><a href="assets/papers/performance-apscc16.pdf">PDF</a><a href="https://doi.org/10.1007/978-3-319-49178-3_27" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
+        </div>
+
+        <div class="publication-group">
+          <h3><span class="en">Journal Articles</span><span class="zh">期刊论文</span></h3>
+          <article class="publication">
+            <time>2023</time>
+            <div>
+              <h4>Adapt Burstable Containers to Variable CPU Resources</h4>
+              <p class="authors"><strong>Hang Huang</strong>, Yuqing Zhao, Jia Rao, Song Wu, Hai Jin, Duoqiang Wang, Suo Kun, Lisong Pan</p>
+              <p class="venue">IEEE Transactions on Computers, 72(3), 2023.</p>
+              <p class="pub-links"><a href="assets/papers/huang-tc23-burstable-containers.pdf">PDF</a><a href="https://doi.org/10.1109/TC.2022.3174480" rel="noopener" target="_blank">DOI</a></p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="research">
-      <div class="section-heading">
-        <p class="section-kicker">
-          <span class="en">Research</span>
-          <span class="zh">研究方向</span>
-        </p>
-        <h2><span class="en">From kernel abstractions to AI-native cloud systems.</span><span class="zh">从内核抽象到 AI 原生云系统。</span></h2>
+    <section class="section students-section" id="students">
+      <div class="section-title">
+        <p class="section-label"><span class="en">Students</span><span class="zh">招生与合作</span></p>
+        <h2><span class="en">Openings</span><span class="zh">欢迎联系</span></h2>
       </div>
-      <div class="research-grid">
-        <article class="research-card">
-          <p class="card-index">KERNEL</p>
-          <h3><span class="en">Operating Systems</span><span class="zh">操作系统机制</span></h3>
-          <p><span class="en">Kernel support for scheduling, memory management, fault tolerance, and predictable performance in multi-tenant cloud environments.</span><span class="zh">研究多租户云环境中的调度、内存管理、故障容忍与可预测性能等内核机制。</span></p>
-        </article>
-        <article class="research-card">
-          <p class="card-index">VIRT</p>
-          <h3><span class="en">Virtualization and Secure Containers</span><span class="zh">虚拟化与安全容器</span></h3>
-          <p><span class="en">Efficient nested virtualization, shadow paging, and isolation techniques for secure containers deployed at cloud scale.</span><span class="zh">面向大规模云部署的高效嵌套虚拟化、影子页表与安全容器隔离技术。</span></p>
-        </article>
-        <article class="research-card">
-          <p class="card-index">CLOUD</p>
-          <h3><span class="en">Serverless and Cloud-native Systems</span><span class="zh">Serverless 与云原生系统</span></h3>
-          <p><span class="en">Runtime and resource management for elastic workloads, containers, distributed shared memory, and cloud-native services.</span><span class="zh">面向弹性负载、容器、分布式共享内存与云原生服务的运行时与资源管理。</span></p>
-        </article>
-        <article class="research-card">
-          <p class="card-index">AI</p>
-          <h3><span class="en">Cloud Systems for AI</span><span class="zh">面向 AI 的云计算系统</span></h3>
-          <p><span class="en">System software for LLM inference, agent execution, sandboxing, and large-scale AI infrastructure.</span><span class="zh">研究大模型推理、智能体执行、沙箱隔离与大规模 AI 基础设施中的系统软件问题。</span></p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="publications">
-      <div class="section-heading">
-        <p class="section-kicker">
-          <span class="en">Publications</span>
-          <span class="zh">论文发表</span>
-        </p>
-        <h2><span class="en">Journal articles and conference papers.</span><span class="zh">期刊论文与会议论文。</span></h2>
-      </div>
-
-      <div class="publication-group">
-        <h3><span class="en">Journal Articles</span><span class="zh">期刊论文</span></h3>
-        <article class="publication">
-          <div class="pub-year">2023</div>
-          <div class="pub-body">
-            <h4>Adapt Burstable Containers to Variable CPU Resources</h4>
-            <p class="authors"><strong>Hang Huang</strong>, Yuqing Zhao, Jia Rao, Song Wu, Hai Jin, Duoqiang Wang, Suo Kun, Lisong Pan</p>
-            <p class="venue">IEEE Transactions on Computers, 72(3), 2023.</p>
-            <div class="pub-links">
-              <a href="assets/papers/huang-tc23-burstable-containers.pdf">PDF</a>
-              <a href="https://doi.org/10.1109/TC.2022.3174480" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="publication-group">
-        <h3><span class="en">Conference Papers</span><span class="zh">会议论文</span></h3>
-        <article class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <h4>JANUS: Cross-World, Cooperative Nested Virtualization for Secure Containers</h4>
-            <p class="authors">Jiangshan Lai, <strong>Hang Huang</strong>, Quan Xu, Zhen Ren, Wenlong Hou, Wei Guo, Jia Rao, Hui Lu, Weidong Han, Jiesheng Wu, Jiang Liu, Naixuan Guan, Yibin Shen, Feng Yu, Xu Wang, Shiqiang Zhang, Zhiheng Tao, Yisheng Xie, Song Wu, Hai Jin</p>
-            <p class="venue">OSDI 2026.</p>
-            <div class="pub-links">
-              <a href="assets/papers/janus-osdi26.pdf">PDF</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <h4>AEP: Achieving Hierarchical Fault Tolerance in DSM Through Atomic Execution Protection</h4>
-            <p class="authors">Zixuan Wang, Qi Wu, <strong>Hang Huang</strong>, Jia Rao, Hui Lu, Hao Fan, Zhuo Huang, Song Wu, Hai Jin</p>
-            <p class="venue">EuroSys 2026.</p>
-            <div class="pub-links">
-              <a href="assets/papers/aep-eurosys26.pdf">PDF</a>
-              <a href="assets/slides/eurosys26-aep.pptx">Slides</a>
-              <a href="https://doi.org/10.1145/3767295.3803602" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2023</div>
-          <div class="pub-body">
-            <h4>PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environments</h4>
-            <p class="authors"><strong>Hang Huang</strong>, Jiangshan Lai, Jia Rao, Hui Lu, Wenlong Hou, Hang Su, Quan Xu, Jiang Zhong, Jiahao Zeng, Xu Wang, Zhengyu He, Weidong Han, Jiang Liu, Tao Ma, Song Wu</p>
-            <p class="venue">ACM SOSP 2023.</p>
-            <div class="pub-links">
-              <a href="assets/papers/pvm-sosp23.pdf">PDF</a>
-              <a href="assets/slides/sosp23-pvm.pptx">Slides</a>
-              <a href="https://doi.org/10.1145/3600006.3613158" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2021</div>
-          <div class="pub-body">
-            <h4>SwitchFlow: Preemptive Multitasking for Deep Learning</h4>
-            <p class="authors">Xiaofeng Wu, Jia Rao, Wei Chen, <strong>Hang Huang</strong>, Chris Ding, Heng Huang</p>
-            <p class="venue">ACM Middleware 2021.</p>
-            <div class="pub-links">
-              <a href="assets/papers/switchflow-middleware21.pdf">PDF</a>
-              <a href="https://doi.org/10.1145/3464298.3493391" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2021</div>
-          <div class="pub-body">
-            <h4>Towards Exploiting CPU Elasticity via Efficient Thread Oversubscription</h4>
-            <p class="authors"><strong>Hang Huang</strong>, Jia Rao, Song Wu, Hai Jin, Hong Jiang, Hao Che, Xiaofeng Wu</p>
-            <p class="venue">ACM HPDC 2021.</p>
-            <div class="pub-links">
-              <a href="assets/papers/vb-hpdc21.pdf">PDF</a>
-              <a href="assets/slides/hpdc21-cpu-elasticity.pptx">Slides</a>
-              <a href="https://doi.org/10.1145/3431379.3460641" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2019</div>
-          <div class="pub-body">
-            <h4>Adaptive Resource Views for Containers</h4>
-            <p class="authors"><strong>Hang Huang</strong>, Jia Rao, Song Wu, Hai Jin, Kun Suo, Xiaofeng Wu</p>
-            <p class="venue">ACM HPDC 2019.</p>
-            <div class="pub-links">
-              <a href="assets/papers/view-hpdc19.pdf">PDF</a>
-              <a href="assets/slides/hpdc19-adaptive-resource-views.pptx">Slides</a>
-              <a href="https://doi.org/10.1145/3307681.3325403" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2018</div>
-          <div class="pub-body">
-            <h4>Dynamic Vertical Memory Scalability for OpenJDK Cloud Applications</h4>
-            <p class="authors">Rodrigo Bruno, Paulo Ferreira, Ruslan Synytsky, Tetiana Fydorenchyk, Jia Rao, <strong>Hang Huang</strong>, Song Wu</p>
-            <p class="venue">ACM ISMM 2018.</p>
-            <div class="pub-links">
-              <a href="assets/papers/dvm-ismm18.pdf">PDF</a>
-              <a href="https://doi.org/10.1145/3210563.3210567" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2016</div>
-          <div class="pub-body">
-            <h4>A Performance Study of Containers in Cloud Environment</h4>
-            <p class="authors">Bowen Ruan, <strong>Hang Huang</strong>, Song Wu, Hai Jin</p>
-            <p class="venue">APSCC 2016.</p>
-            <div class="pub-links">
-              <a href="assets/papers/performance-apscc16.pdf">PDF</a>
-              <a href="https://doi.org/10.1007/978-3-319-49178-3_27" rel="noopener" target="_blank">DOI</a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section alt" id="materials">
-      <div class="section-heading">
-        <p class="section-kicker">
-          <span class="en">Materials</span>
-          <span class="zh">公开材料</span>
-        </p>
-        <h2><span class="en">Downloadable PDFs and talk slides.</span><span class="zh">可下载的论文、简历与报告材料。</span></h2>
-      </div>
-      <div class="materials-grid">
-        <a class="material-card" href="assets/files/Hang-Huang-CV.pdf">
-          <span class="material-type">PDF</span>
-          <strong><span class="en">Curriculum Vitae</span><span class="zh">个人简历</span></strong>
-          <small><span class="en">Academic CV</span><span class="zh">学术简历</span></small>
-        </a>
-        <a class="material-card" href="assets/slides/sosp23-pvm.pptx">
-          <span class="material-type">PPT</span>
-          <strong>PVM</strong>
-          <small>SOSP 2023</small>
-        </a>
-        <a class="material-card" href="assets/slides/eurosys26-aep.pptx">
-          <span class="material-type">PPT</span>
-          <strong>AEP</strong>
-          <small>EuroSys 2026</small>
-        </a>
-        <a class="material-card" href="assets/slides/hpdc21-cpu-elasticity.pptx">
-          <span class="material-type">PPT</span>
-          <strong>CPU Elasticity</strong>
-          <small>HPDC 2021</small>
-        </a>
-        <a class="material-card" href="assets/slides/hpdc19-adaptive-resource-views.pptx">
-          <span class="material-type">PPT</span>
-          <strong>Resource Views</strong>
-          <small>HPDC 2019</small>
-        </a>
-      </div>
-    </section>
-
-    <section class="section join-section" id="join">
-      <div class="section-heading compact">
-        <p class="section-kicker">
-          <span class="en">Students and Collaboration</span>
-          <span class="zh">招生与合作</span>
-        </p>
-        <h2><span class="en">I welcome students who enjoy building real systems.</span><span class="zh">欢迎愿意动手做真实系统的同学加入。</span></h2>
-      </div>
-      <div class="join-panel">
-        <p class="en">I am looking for motivated students interested in operating systems, virtualization, containers, cloud infrastructure, and AI systems. Strong engineering taste matters: reading papers, building prototypes, measuring carefully, and learning from production systems.</p>
-        <p class="zh">欢迎对操作系统、虚拟化、容器、云基础设施与 AI 系统感兴趣的同学联系。希望你愿意读论文、写系统、做严谨实验，也愿意从真实生产系统的问题中提炼研究机会。</p>
-        <a class="button primary" href="mailto:hanghhust@gmail.com">
-          <span class="en">Get in touch</span>
-          <span class="zh">邮件联系</span>
-        </a>
+      <div class="section-body prose">
+        <p class="en">I welcome students interested in systems research. The work usually involves reading papers carefully, building prototypes, measuring systems under realistic workloads, and turning production problems into research questions.</p>
+        <p class="zh">欢迎对系统研究感兴趣的同学联系。我们的工作通常包括认真读论文、实现系统原型、在真实负载下做实验，以及从生产系统问题中提炼研究问题。</p>
+        <p><a class="text-link" href="mailto:hanghhust@gmail.com"><span class="en">Contact by email</span><span class="zh">通过邮件联系</span></a></p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© <span id="year">2026</span> Hang Huang</p>
-    <p><span class="en">Built as a concise academic homepage for systems research.</span><span class="zh">面向系统研究的个人学术主页。</span></p>
+    <p><span class="en">Last updated on this GitHub Pages site.</span><span class="zh">本主页托管于 GitHub Pages。</span></p>
   </footer>
 
   <script src="script.js"></script>
