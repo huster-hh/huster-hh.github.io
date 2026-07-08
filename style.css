@@ -399,6 +399,13 @@ img {
   margin: 0;
 }
 
+.visitor-stats {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  white-space: nowrap;
+}
+
 :focus-visible {
   outline: 3px solid rgba(165, 18, 42, 0.24);
   outline-offset: 3px;
